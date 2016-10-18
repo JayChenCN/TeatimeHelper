@@ -12,7 +12,41 @@
 		984F1CAE1DB5BACC0046C1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984F1CAD1DB5BACC0046C1C3 /* Assets.xcassets */; };
 		984F1CB11DB5BACC0046C1C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 984F1CAF1DB5BACC0046C1C3 /* MainMenu.xib */; };
 		984F1CC51DB5BDAE0046C1C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */; };
+		984F1D011DB5D0900046C1C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */; };
+		984F1D0E1DB5D0900046C1C3 /* TTUISource.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 984F1D001DB5D0900046C1C3 /* TTUISource.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		984F1D1A1DB5D0D90046C1C3 /* TTUISourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1D131DB5D0D90046C1C3 /* TTUISourceEditorCommand.m */; };
+		984F1D1B1DB5D0D90046C1C3 /* TTUISourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1D151DB5D0D90046C1C3 /* TTUISourceEditorExtension.m */; };
+		984F1D1C1DB5D0D90046C1C3 /* TTPropertyElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1D171DB5D0D90046C1C3 /* TTPropertyElement.m */; };
+		984F1D1D1DB5D0D90046C1C3 /* TTUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1D191DB5D0D90046C1C3 /* TTUIHelper.m */; };
+		984F1D1E1DB5D1850046C1C3 /* xTextCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBA1DB5BD5C0046C1C3 /* xTextCommand.m */; };
+		984F1D1F1DB5D1850046C1C3 /* xTextMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBC1DB5BD5C0046C1C3 /* xTextMatcher.m */; };
+		984F1D201DB5D1850046C1C3 /* xTextModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBE1DB5BD5C0046C1C3 /* xTextModifier.m */; };
+		984F1D221DB5D3060046C1C3 /* ViewType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 984F1D211DB5D3060046C1C3 /* ViewType.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		984F1D0C1DB5D0900046C1C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 984F1C9C1DB5BACC0046C1C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 984F1CFF1DB5D0900046C1C3;
+			remoteInfo = TTUISource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		984F1CD81DB5C2250046C1C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				984F1D0E1DB5D0900046C1C3 /* TTUISource.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		984F1CA41DB5BACC0046C1C3 /* TeatimeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeatimeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +64,18 @@
 		984F1CBE1DB5BD5C0046C1C3 /* xTextModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTextModifier.m; sourceTree = "<group>"; };
 		984F1CBF1DB5BD5C0046C1C3 /* xTextProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTextProtocol.h; sourceTree = "<group>"; };
 		984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		984F1D001DB5D0900046C1C3 /* TTUISource.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TTUISource.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		984F1D041DB5D0900046C1C3 /* TTUISource.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTUISource.entitlements; sourceTree = "<group>"; };
+		984F1D0B1DB5D0900046C1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984F1D121DB5D0D80046C1C3 /* TTUISourceEditorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUISourceEditorCommand.h; sourceTree = "<group>"; };
+		984F1D131DB5D0D90046C1C3 /* TTUISourceEditorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUISourceEditorCommand.m; sourceTree = "<group>"; };
+		984F1D141DB5D0D90046C1C3 /* TTUISourceEditorExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUISourceEditorExtension.h; sourceTree = "<group>"; };
+		984F1D151DB5D0D90046C1C3 /* TTUISourceEditorExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUISourceEditorExtension.m; sourceTree = "<group>"; };
+		984F1D161DB5D0D90046C1C3 /* TTPropertyElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPropertyElement.h; sourceTree = "<group>"; };
+		984F1D171DB5D0D90046C1C3 /* TTPropertyElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPropertyElement.m; sourceTree = "<group>"; };
+		984F1D181DB5D0D90046C1C3 /* TTUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUIHelper.h; sourceTree = "<group>"; };
+		984F1D191DB5D0D90046C1C3 /* TTUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUIHelper.m; sourceTree = "<group>"; };
+		984F1D211DB5D3060046C1C3 /* ViewType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViewType.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +87,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		984F1CFD1DB5D0900046C1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984F1D011DB5D0900046C1C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +103,7 @@
 			children = (
 				984F1CA61DB5BACC0046C1C3 /* TeatimeHelper */,
 				984F1CB81DB5BD5C0046C1C3 /* xLibrary */,
+				984F1D021DB5D0900046C1C3 /* TTUISource */,
 				984F1CA51DB5BACC0046C1C3 /* Products */,
 				984F1CC31DB5BDAE0046C1C3 /* Frameworks */,
 			);
@@ -58,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				984F1CA41DB5BACC0046C1C3 /* TeatimeHelper.app */,
+				984F1D001DB5D0900046C1C3 /* TTUISource.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +161,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		984F1D021DB5D0900046C1C3 /* TTUISource */ = {
+			isa = PBXGroup;
+			children = (
+				984F1D121DB5D0D80046C1C3 /* TTUISourceEditorCommand.h */,
+				984F1D131DB5D0D90046C1C3 /* TTUISourceEditorCommand.m */,
+				984F1D141DB5D0D90046C1C3 /* TTUISourceEditorExtension.h */,
+				984F1D151DB5D0D90046C1C3 /* TTUISourceEditorExtension.m */,
+				984F1D161DB5D0D90046C1C3 /* TTPropertyElement.h */,
+				984F1D171DB5D0D90046C1C3 /* TTPropertyElement.m */,
+				984F1D181DB5D0D90046C1C3 /* TTUIHelper.h */,
+				984F1D191DB5D0D90046C1C3 /* TTUIHelper.m */,
+				984F1D0B1DB5D0900046C1C3 /* Info.plist */,
+				984F1D031DB5D0900046C1C3 /* Supporting Files */,
+			);
+			path = TTUISource;
+			sourceTree = "<group>";
+		};
+		984F1D031DB5D0900046C1C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984F1D211DB5D3060046C1C3 /* ViewType.plist */,
+				984F1D041DB5D0900046C1C3 /* TTUISource.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,15 +197,34 @@
 				984F1CA01DB5BACC0046C1C3 /* Sources */,
 				984F1CA11DB5BACC0046C1C3 /* Frameworks */,
 				984F1CA21DB5BACC0046C1C3 /* Resources */,
+				984F1CD81DB5C2250046C1C3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				984F1D0D1DB5D0900046C1C3 /* PBXTargetDependency */,
 			);
 			name = TeatimeHelper;
 			productName = TeatimeHelper;
 			productReference = 984F1CA41DB5BACC0046C1C3 /* TeatimeHelper.app */;
 			productType = "com.apple.product-type.application";
+		};
+		984F1CFF1DB5D0900046C1C3 /* TTUISource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984F1D0F1DB5D0900046C1C3 /* Build configuration list for PBXNativeTarget "TTUISource" */;
+			buildPhases = (
+				984F1CFC1DB5D0900046C1C3 /* Sources */,
+				984F1CFD1DB5D0900046C1C3 /* Frameworks */,
+				984F1CFE1DB5D0900046C1C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTUISource;
+			productName = TTUISource;
+			productReference = 984F1D001DB5D0900046C1C3 /* TTUISource.appex */;
+			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -135,6 +236,11 @@
 				ORGANIZATIONNAME = Jay;
 				TargetAttributes = {
 					984F1CA31DB5BACC0046C1C3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WL3EQ33HE3;
+						ProvisioningStyle = Automatic;
+					};
+					984F1CFF1DB5D0900046C1C3 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WL3EQ33HE3;
 						ProvisioningStyle = Automatic;
@@ -155,6 +261,7 @@
 			projectRoot = "";
 			targets = (
 				984F1CA31DB5BACC0046C1C3 /* TeatimeHelper */,
+				984F1CFF1DB5D0900046C1C3 /* TTUISource */,
 			);
 		};
 /* End PBXProject section */
@@ -166,6 +273,14 @@
 			files = (
 				984F1CAE1DB5BACC0046C1C3 /* Assets.xcassets in Resources */,
 				984F1CB11DB5BACC0046C1C3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984F1CFE1DB5D0900046C1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984F1D221DB5D3060046C1C3 /* ViewType.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +296,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		984F1CFC1DB5D0900046C1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984F1D1E1DB5D1850046C1C3 /* xTextCommand.m in Sources */,
+				984F1D1F1DB5D1850046C1C3 /* xTextMatcher.m in Sources */,
+				984F1D201DB5D1850046C1C3 /* xTextModifier.m in Sources */,
+				984F1D1C1DB5D0D90046C1C3 /* TTPropertyElement.m in Sources */,
+				984F1D1D1DB5D0D90046C1C3 /* TTUIHelper.m in Sources */,
+				984F1D1A1DB5D0D90046C1C3 /* TTUISourceEditorCommand.m in Sources */,
+				984F1D1B1DB5D0D90046C1C3 /* TTUISourceEditorExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		984F1D0D1DB5D0900046C1C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 984F1CFF1DB5D0900046C1C3 /* TTUISource */;
+			targetProxy = 984F1D0C1DB5D0900046C1C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		984F1CAF1DB5BACC0046C1C3 /* MainMenu.xib */ = {
@@ -286,11 +423,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WL3EQ33HE3;
 				INFOPLIST_FILE = TeatimeHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Teatime.TeatimeHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -299,12 +436,44 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WL3EQ33HE3;
 				INFOPLIST_FILE = TeatimeHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Teatime.TeatimeHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		984F1D101DB5D0900046C1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TTUISource/TTUISource.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WL3EQ33HE3;
+				INFOPLIST_FILE = TTUISource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TTUISource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		984F1D111DB5D0900046C1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TTUISource/TTUISource.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WL3EQ33HE3;
+				INFOPLIST_FILE = TTUISource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TTUISource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -325,6 +494,15 @@
 			buildConfigurations = (
 				984F1CB61DB5BACC0046C1C3 /* Debug */,
 				984F1CB71DB5BACC0046C1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984F1D0F1DB5D0900046C1C3 /* Build configuration list for PBXNativeTarget "TTUISource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984F1D101DB5D0900046C1C3 /* Debug */,
+				984F1D111DB5D0900046C1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

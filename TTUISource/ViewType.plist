@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TTView</key>
+	<string>&lt;#annotation#&gt;
+- (TTView *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            TTView *view = [[TTView alloc] initWithCircleWidth:0];
+            view;
+        });
+        
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>TTButton</key>
+	<string>&lt;#annotation#&gt;
+- (UIButton *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            UIButton *button = [[UIButton alloc] init];
+            [button setBackgroundImage:[UIImage imageNamed:@&quot;&quot; withTop:0 andLeft:0] forState:UIControlStateNormal];
+            [button setBackgroundImage:[UIImage imageNamed:@&quot;&quot; withTop:0 andLeft:0] forState:UIControlStateHighlighted];
+            
+            button;
+        });
+        
+        
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>TTLabel</key>
+	<string>&lt;#annotation#&gt;
+- (TTLabel *)&lt;#instanceName#&gt;{
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; = ({
+            TTLabel *label = [[TTLabel alloc] init];
+            label.backgroundColor = [UIColor clearColor];
+            label.font = kFont;
+            label.textColor = kColor;
+            label.numberOfLines = 1;
+            label.textAlignment =NSTextAlignmentLeft;
+            label.text = @&quot;&quot;;
+            label;
+        });
+        
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>UIView</key>
+	<string>&lt;#annotation#&gt;
+- (UIView *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            UIView *view = [[UIView alloc] init];
+            
+            view;
+        });
+
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>UIButton</key>
+	<string>&lt;#annotation#&gt;
+- (UIButton *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            UIButton *button = [[UIButton alloc] init];
+            //        button.backgroundColor = [UIColor greenColor];
+            [button setBackgroundImage:[UIImage imageNamed&lt;#name#&gt;  WithTop:0 Left:0] forState:UIControlStateNormal];
+            [button setBackgroundImage:[UIImage imageNamed&lt;#name#&gt;  WithTop:0 Left:0] forState:UIControlStateHighlighted];
+            [button addTarget:self action:@selector(&lt;#name#&gt;Action) forControlEvents:UIControlEventTouchUpInside];
+            button;
+        });
+
+    
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>UITableView</key>
+	<string>&lt;#annotation#&gt;
+- (UITableView *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+            tableView.delegate = self;
+            tableView.dataSource = self;
+            tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+            tableView.bounces = NO;
+            tableView;
+        });
+
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>TTImageView</key>
+	<string>&lt;#annotation#&gt;
+- (TTImageView *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            TTImageView *view = [[TTImageView alloc] initWithCircleWidth:0];
+            view.image = [UIImage imageNamed:@&quot;&quot;];
+            view;
+        });
+        
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>UIImageView</key>
+	<string>&lt;#annotation#&gt;
+- (UIImageView *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            UIImageView *imageView = [UIImageView new];
+            imageView.backgroundColor = [UIColor lightGrayColor];
+            imageView.image = [UIImage imageNamed&lt;#name#&gt;];
+            imageView;
+        });
+
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>UILabel</key>
+	<string>&lt;#annotation#&gt;
+- (UILabel *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; = ({
+            UILabel *label = [[UILabel alloc] init];
+            label.backgroundColor = [UIColor clearColor];
+//            label.font = kFont18;
+//            label.textColor = kColor_ffffff;
+            label.numberOfLines = 1;
+            label.textAlignment =NSTextAlignmentCenter;
+            [label sizeToFit];
+            label;
+        });
+        
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+	<key>Default</key>
+	<string>&lt;#annotation#&gt;
+- (&lt;#className#&gt; *)&lt;#instanceName#&gt; {
+    if (!_&lt;#instanceName#&gt;) {
+        _&lt;#instanceName#&gt; =  ({
+            &lt;#className#&gt; *view = [[&lt;#className#&gt; alloc] init];
+            
+            view;
+        });
+        
+    }
+    return _&lt;#instanceName#&gt;;
+}</string>
+</dict>
+</plist>

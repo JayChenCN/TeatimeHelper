@@ -78,16 +78,4 @@
     [self select:invocation pattern:nil handler:handler];
 }
 
-+ (void)radix:(XCSourceEditorCommandInvocation *)invocation handler:(xTextHandlerBlock)handler {
-    [self select:invocation pattern:xTextHandlerRadixPattern handler:handler];
-}
-
-+ (void)hex:(XCSourceEditorCommandInvocation *)invocation handler:(xTextHandlerBlock)handler {
-    [self select:invocation pattern:xTextHandlerHexPattern handler:handler];
-}
-
-+ (void)rgb:(XCSourceEditorCommandInvocation *)invocation handler:(xTextHandlerBlock)handler {
-    [self select:invocation pattern:xTextHandlerRGBPattern handler:handler];
-}
-
 @end
