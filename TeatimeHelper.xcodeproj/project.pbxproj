@@ -11,6 +11,7 @@
 		984F1CAC1DB5BACC0046C1C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CAB1DB5BACC0046C1C3 /* main.m */; };
 		984F1CAE1DB5BACC0046C1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984F1CAD1DB5BACC0046C1C3 /* Assets.xcassets */; };
 		984F1CB11DB5BACC0046C1C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 984F1CAF1DB5BACC0046C1C3 /* MainMenu.xib */; };
+		984F1CC51DB5BDAE0046C1C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,14 @@
 		984F1CAD1DB5BACC0046C1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		984F1CB01DB5BACC0046C1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		984F1CB21DB5BACC0046C1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984F1CB91DB5BD5C0046C1C3 /* xTextCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTextCommand.h; sourceTree = "<group>"; };
+		984F1CBA1DB5BD5C0046C1C3 /* xTextCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTextCommand.m; sourceTree = "<group>"; };
+		984F1CBB1DB5BD5C0046C1C3 /* xTextMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTextMatcher.h; sourceTree = "<group>"; };
+		984F1CBC1DB5BD5C0046C1C3 /* xTextMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTextMatcher.m; sourceTree = "<group>"; };
+		984F1CBD1DB5BD5C0046C1C3 /* xTextModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTextModifier.h; sourceTree = "<group>"; };
+		984F1CBE1DB5BD5C0046C1C3 /* xTextModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xTextModifier.m; sourceTree = "<group>"; };
+		984F1CBF1DB5BD5C0046C1C3 /* xTextProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xTextProtocol.h; sourceTree = "<group>"; };
+		984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984F1CC51DB5BDAE0046C1C3 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +48,9 @@
 			isa = PBXGroup;
 			children = (
 				984F1CA61DB5BACC0046C1C3 /* TeatimeHelper */,
+				984F1CB81DB5BD5C0046C1C3 /* xLibrary */,
 				984F1CA51DB5BACC0046C1C3 /* Products */,
+				984F1CC31DB5BDAE0046C1C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +81,28 @@
 				984F1CAB1DB5BACC0046C1C3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		984F1CB81DB5BD5C0046C1C3 /* xLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				984F1CBF1DB5BD5C0046C1C3 /* xTextProtocol.h */,
+				984F1CB91DB5BD5C0046C1C3 /* xTextCommand.h */,
+				984F1CBA1DB5BD5C0046C1C3 /* xTextCommand.m */,
+				984F1CBB1DB5BD5C0046C1C3 /* xTextMatcher.h */,
+				984F1CBC1DB5BD5C0046C1C3 /* xTextMatcher.m */,
+				984F1CBD1DB5BD5C0046C1C3 /* xTextModifier.h */,
+				984F1CBE1DB5BD5C0046C1C3 /* xTextModifier.m */,
+			);
+			path = xLibrary;
+			sourceTree = "<group>";
+		};
+		984F1CC31DB5BDAE0046C1C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +327,7 @@
 				984F1CB71DB5BACC0046C1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

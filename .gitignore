@@ -1,0 +1,25 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+# Exclude the build directory
+build/*
+# Exclude temp nibs and swap files
+*~.nib
+*.swp
+# Exclude OS X folder attributes
+.DS_Store
+# Exclude user-specific XCode 3 and 4 files
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+UserInterfaceState.xcuserstate
+xcuserdata
+Pods
+
