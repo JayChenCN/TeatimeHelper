@@ -2,8 +2,8 @@
 //  PropertyElement.h
 //  xTextHandler
 //
-//  Created by apple on 16/10/6.
-//  Copyright © 2016年 cyan. All rights reserved.
+//  Created by Jay Chen on 16/10/18.
+//  Copyright © 2016年 Jay. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

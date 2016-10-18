@@ -40,30 +40,4 @@ typedef NSString * (^xTextHandlerBlock) (NSString *text);
 + (void)any:(XCSourceEditorCommandInvocation *)invocation handler:(xTextHandlerBlock)handler;
 
 
-/**
- Select numbers
-
- @param invocation XCSourceEditorCommandInvocation
- @param handler    handler
- */
-+ (void)radix:(XCSourceEditorCommandInvocation *)invocation handler:(xTextHandlerBlock)handler;
-
-
-/**
- Select hex color
-
- @param invocation XCSourceEditorCommandInvocation
- @param handler    handler
- */
-+ (void)hex:(XCSourceEditorCommandInvocation *)invocation handler:(xTextHandlerBlock)handler;
-
-
-/**
- Select RGB color
-
- @param invocation XCSourceEditorCommandInvocation
- @param handler    handler
- */
-+ (void)rgb:(XCSourceEditorCommandInvocation *)invocation handler:(xTextHandlerBlock)handler;
-
 @end

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TTCompleteMethod.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>TTImport.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>TTUISource.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -40,6 +50,16 @@
 			<true/>
 		</dict>
 		<key>984F1CFF1DB5D0900046C1C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98CF51931DB5F01100908D87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98CF51A91DB5F0FF00908D87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
