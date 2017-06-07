@@ -22,22 +22,6 @@
 		984F1D1F1DB5D1850046C1C3 /* xTextMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBC1DB5BD5C0046C1C3 /* xTextMatcher.m */; };
 		984F1D201DB5D1850046C1C3 /* xTextModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBE1DB5BD5C0046C1C3 /* xTextModifier.m */; };
 		984F1D221DB5D3060046C1C3 /* ViewType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 984F1D211DB5D3060046C1C3 /* ViewType.plist */; };
-		98CF51951DB5F01100908D87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */; };
-		98CF519B1DB5F01100908D87 /* TTImportExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CF519A1DB5F01100908D87 /* TTImportExtension.m */; };
-		98CF519E1DB5F01100908D87 /* TTImportCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CF519D1DB5F01100908D87 /* TTImportCommand.m */; };
-		98CF51A21DB5F01100908D87 /* TTImport.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 98CF51941DB5F01100908D87 /* TTImport.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		98CF51AB1DB5F0FF00908D87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F1CC41DB5BDAE0046C1C3 /* Cocoa.framework */; };
-		98CF51B11DB5F0FF00908D87 /* TTCompleteMethodExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CF51B01DB5F0FF00908D87 /* TTCompleteMethodExtension.m */; };
-		98CF51B41DB5F0FF00908D87 /* TTCompleteMethodCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CF51B31DB5F0FF00908D87 /* TTCompleteMethodCommand.m */; };
-		98CF51B81DB5F0FF00908D87 /* TTCompleteMethod.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 98CF51AA1DB5F0FF00908D87 /* TTCompleteMethod.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		98CF51BE1DB5F2C700908D87 /* TTImportHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CF51BD1DB5F2C700908D87 /* TTImportHelper.m */; };
-		98CF51BF1DB5F41D00908D87 /* xTextCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBA1DB5BD5C0046C1C3 /* xTextCommand.m */; };
-		98CF51C01DB5F41D00908D87 /* xTextMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBC1DB5BD5C0046C1C3 /* xTextMatcher.m */; };
-		98CF51C11DB5F41D00908D87 /* xTextModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBE1DB5BD5C0046C1C3 /* xTextModifier.m */; };
-		98CF51C21DB5F44400908D87 /* xTextCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBA1DB5BD5C0046C1C3 /* xTextCommand.m */; };
-		98CF51C31DB5F44400908D87 /* xTextMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBC1DB5BD5C0046C1C3 /* xTextMatcher.m */; };
-		98CF51C41DB5F44400908D87 /* xTextModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F1CBE1DB5BD5C0046C1C3 /* xTextModifier.m */; };
-		98CF51C71DB5F5F100908D87 /* TTCompleteMethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CF51C61DB5F5F100908D87 /* TTCompleteMethodHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,20 +31,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 984F1CFF1DB5D0900046C1C3;
 			remoteInfo = TTUISource;
-		};
-		98CF51A01DB5F01100908D87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 984F1C9C1DB5BACC0046C1C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98CF51931DB5F01100908D87;
-			remoteInfo = TTImport;
-		};
-		98CF51B61DB5F0FF00908D87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 984F1C9C1DB5BACC0046C1C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98CF51A91DB5F0FF00908D87;
-			remoteInfo = TTCompleteMethod;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -72,8 +42,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				984F1D0E1DB5D0900046C1C3 /* TTUISource.appex in Embed App Extensions */,
-				98CF51B81DB5F0FF00908D87 /* TTCompleteMethod.appex in Embed App Extensions */,
-				98CF51A21DB5F01100908D87 /* TTImport.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,24 +76,6 @@
 		984F1D181DB5D0D90046C1C3 /* TTUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUIHelper.h; sourceTree = "<group>"; };
 		984F1D191DB5D0D90046C1C3 /* TTUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUIHelper.m; sourceTree = "<group>"; };
 		984F1D211DB5D3060046C1C3 /* ViewType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViewType.plist; sourceTree = "<group>"; };
-		98CF51941DB5F01100908D87 /* TTImport.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TTImport.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CF51981DB5F01100908D87 /* TTImport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTImport.entitlements; sourceTree = "<group>"; };
-		98CF51991DB5F01100908D87 /* TTImportExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTImportExtension.h; sourceTree = "<group>"; };
-		98CF519A1DB5F01100908D87 /* TTImportExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTImportExtension.m; sourceTree = "<group>"; };
-		98CF519C1DB5F01100908D87 /* TTImportCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTImportCommand.h; sourceTree = "<group>"; };
-		98CF519D1DB5F01100908D87 /* TTImportCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTImportCommand.m; sourceTree = "<group>"; };
-		98CF519F1DB5F01100908D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98CF51AA1DB5F0FF00908D87 /* TTCompleteMethod.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TTCompleteMethod.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CF51AE1DB5F0FF00908D87 /* TTCompleteMethod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTCompleteMethod.entitlements; sourceTree = "<group>"; };
-		98CF51AF1DB5F0FF00908D87 /* TTCompleteMethodExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTCompleteMethodExtension.h; sourceTree = "<group>"; };
-		98CF51B01DB5F0FF00908D87 /* TTCompleteMethodExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCompleteMethodExtension.m; sourceTree = "<group>"; };
-		98CF51B21DB5F0FF00908D87 /* TTCompleteMethodCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTCompleteMethodCommand.h; sourceTree = "<group>"; };
-		98CF51B31DB5F0FF00908D87 /* TTCompleteMethodCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCompleteMethodCommand.m; sourceTree = "<group>"; };
-		98CF51B51DB5F0FF00908D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98CF51BC1DB5F2C700908D87 /* TTImportHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImportHelper.h; sourceTree = "<group>"; };
-		98CF51BD1DB5F2C700908D87 /* TTImportHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImportHelper.m; sourceTree = "<group>"; };
-		98CF51C51DB5F5F100908D87 /* TTCompleteMethodHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCompleteMethodHelper.h; sourceTree = "<group>"; };
-		98CF51C61DB5F5F100908D87 /* TTCompleteMethodHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCompleteMethodHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,22 +95,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98CF51911DB5F01100908D87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CF51951DB5F01100908D87 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CF51A71DB5F0FF00908D87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CF51AB1DB5F0FF00908D87 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -170,8 +104,6 @@
 				984F1CA61DB5BACC0046C1C3 /* TeatimeHelper */,
 				984F1CB81DB5BD5C0046C1C3 /* xLibrary */,
 				984F1D021DB5D0900046C1C3 /* TTUISource */,
-				98CF51961DB5F01100908D87 /* TTImport */,
-				98CF51AC1DB5F0FF00908D87 /* TTCompleteMethod */,
 				984F1CA51DB5BACC0046C1C3 /* Products */,
 				984F1CC31DB5BDAE0046C1C3 /* Frameworks */,
 			);
@@ -182,8 +114,6 @@
 			children = (
 				984F1CA41DB5BACC0046C1C3 /* TeatimeHelper.app */,
 				984F1D001DB5D0900046C1C3 /* TTUISource.appex */,
-				98CF51941DB5F01100908D87 /* TTImport.appex */,
-				98CF51AA1DB5F0FF00908D87 /* TTCompleteMethod.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,52 +187,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98CF51961DB5F01100908D87 /* TTImport */ = {
-			isa = PBXGroup;
-			children = (
-				98CF51991DB5F01100908D87 /* TTImportExtension.h */,
-				98CF519A1DB5F01100908D87 /* TTImportExtension.m */,
-				98CF519C1DB5F01100908D87 /* TTImportCommand.h */,
-				98CF519D1DB5F01100908D87 /* TTImportCommand.m */,
-				98CF51BC1DB5F2C700908D87 /* TTImportHelper.h */,
-				98CF51BD1DB5F2C700908D87 /* TTImportHelper.m */,
-				98CF519F1DB5F01100908D87 /* Info.plist */,
-				98CF51971DB5F01100908D87 /* Supporting Files */,
-			);
-			path = TTImport;
-			sourceTree = "<group>";
-		};
-		98CF51971DB5F01100908D87 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				98CF51981DB5F01100908D87 /* TTImport.entitlements */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		98CF51AC1DB5F0FF00908D87 /* TTCompleteMethod */ = {
-			isa = PBXGroup;
-			children = (
-				98CF51AF1DB5F0FF00908D87 /* TTCompleteMethodExtension.h */,
-				98CF51B01DB5F0FF00908D87 /* TTCompleteMethodExtension.m */,
-				98CF51B21DB5F0FF00908D87 /* TTCompleteMethodCommand.h */,
-				98CF51B31DB5F0FF00908D87 /* TTCompleteMethodCommand.m */,
-				98CF51C51DB5F5F100908D87 /* TTCompleteMethodHelper.h */,
-				98CF51C61DB5F5F100908D87 /* TTCompleteMethodHelper.m */,
-				98CF51B51DB5F0FF00908D87 /* Info.plist */,
-				98CF51AD1DB5F0FF00908D87 /* Supporting Files */,
-			);
-			path = TTCompleteMethod;
-			sourceTree = "<group>";
-		};
-		98CF51AD1DB5F0FF00908D87 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				98CF51AE1DB5F0FF00908D87 /* TTCompleteMethod.entitlements */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,8 +203,6 @@
 			);
 			dependencies = (
 				984F1D0D1DB5D0900046C1C3 /* PBXTargetDependency */,
-				98CF51A11DB5F01100908D87 /* PBXTargetDependency */,
-				98CF51B71DB5F0FF00908D87 /* PBXTargetDependency */,
 			);
 			name = TeatimeHelper;
 			productName = TeatimeHelper;
@@ -344,40 +226,6 @@
 			productReference = 984F1D001DB5D0900046C1C3 /* TTUISource.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
-		98CF51931DB5F01100908D87 /* TTImport */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98CF51A51DB5F01100908D87 /* Build configuration list for PBXNativeTarget "TTImport" */;
-			buildPhases = (
-				98CF51901DB5F01100908D87 /* Sources */,
-				98CF51911DB5F01100908D87 /* Frameworks */,
-				98CF51921DB5F01100908D87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TTImport;
-			productName = TTImport;
-			productReference = 98CF51941DB5F01100908D87 /* TTImport.appex */;
-			productType = "com.apple.product-type.xcode-extension";
-		};
-		98CF51A91DB5F0FF00908D87 /* TTCompleteMethod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98CF51B91DB5F0FF00908D87 /* Build configuration list for PBXNativeTarget "TTCompleteMethod" */;
-			buildPhases = (
-				98CF51A61DB5F0FF00908D87 /* Sources */,
-				98CF51A71DB5F0FF00908D87 /* Frameworks */,
-				98CF51A81DB5F0FF00908D87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TTCompleteMethod;
-			productName = TTCompleteMethod;
-			productReference = 98CF51AA1DB5F0FF00908D87 /* TTCompleteMethod.appex */;
-			productType = "com.apple.product-type.xcode-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -393,16 +241,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					984F1CFF1DB5D0900046C1C3 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = WL3EQ33HE3;
-						ProvisioningStyle = Automatic;
-					};
-					98CF51931DB5F01100908D87 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = WL3EQ33HE3;
-						ProvisioningStyle = Automatic;
-					};
-					98CF51A91DB5F0FF00908D87 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WL3EQ33HE3;
 						ProvisioningStyle = Automatic;
@@ -424,8 +262,6 @@
 			targets = (
 				984F1CA31DB5BACC0046C1C3 /* TeatimeHelper */,
 				984F1CFF1DB5D0900046C1C3 /* TTUISource */,
-				98CF51931DB5F01100908D87 /* TTImport */,
-				98CF51A91DB5F0FF00908D87 /* TTCompleteMethod */,
 			);
 		};
 /* End PBXProject section */
@@ -445,20 +281,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				984F1D221DB5D3060046C1C3 /* ViewType.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CF51921DB5F01100908D87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CF51A81DB5F0FF00908D87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,32 +310,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98CF51901DB5F01100908D87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CF51BF1DB5F41D00908D87 /* xTextCommand.m in Sources */,
-				98CF51C01DB5F41D00908D87 /* xTextMatcher.m in Sources */,
-				98CF51C11DB5F41D00908D87 /* xTextModifier.m in Sources */,
-				98CF519B1DB5F01100908D87 /* TTImportExtension.m in Sources */,
-				98CF519E1DB5F01100908D87 /* TTImportCommand.m in Sources */,
-				98CF51BE1DB5F2C700908D87 /* TTImportHelper.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CF51A61DB5F0FF00908D87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CF51C21DB5F44400908D87 /* xTextCommand.m in Sources */,
-				98CF51C31DB5F44400908D87 /* xTextMatcher.m in Sources */,
-				98CF51C41DB5F44400908D87 /* xTextModifier.m in Sources */,
-				98CF51B11DB5F0FF00908D87 /* TTCompleteMethodExtension.m in Sources */,
-				98CF51B41DB5F0FF00908D87 /* TTCompleteMethodCommand.m in Sources */,
-				98CF51C71DB5F5F100908D87 /* TTCompleteMethodHelper.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -521,16 +317,6 @@
 			isa = PBXTargetDependency;
 			target = 984F1CFF1DB5D0900046C1C3 /* TTUISource */;
 			targetProxy = 984F1D0C1DB5D0900046C1C3 /* PBXContainerItemProxy */;
-		};
-		98CF51A11DB5F01100908D87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 98CF51931DB5F01100908D87 /* TTImport */;
-			targetProxy = 98CF51A01DB5F01100908D87 /* PBXContainerItemProxy */;
-		};
-		98CF51B71DB5F0FF00908D87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 98CF51A91DB5F0FF00908D87 /* TTCompleteMethod */;
-			targetProxy = 98CF51B61DB5F0FF00908D87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -691,70 +477,6 @@
 			};
 			name = Release;
 		};
-		98CF51A31DB5F01100908D87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = TTImport/TTImport.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WL3EQ33HE3;
-				INFOPLIST_FILE = TTImport/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TTImport;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		98CF51A41DB5F01100908D87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = TTImport/TTImport.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WL3EQ33HE3;
-				INFOPLIST_FILE = TTImport/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TTImport;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		98CF51BA1DB5F0FF00908D87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = TTCompleteMethod/TTCompleteMethod.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WL3EQ33HE3;
-				INFOPLIST_FILE = TTCompleteMethod/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TTCompleteMethod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		98CF51BB1DB5F0FF00908D87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = TTCompleteMethod/TTCompleteMethod.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WL3EQ33HE3;
-				INFOPLIST_FILE = TTCompleteMethod/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TTCompleteMethod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,22 +506,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		98CF51A51DB5F01100908D87 /* Build configuration list for PBXNativeTarget "TTImport" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98CF51A31DB5F01100908D87 /* Debug */,
-				98CF51A41DB5F01100908D87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		98CF51B91DB5F0FF00908D87 /* Build configuration list for PBXNativeTarget "TTCompleteMethod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98CF51BA1DB5F0FF00908D87 /* Debug */,
-				98CF51BB1DB5F0FF00908D87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
